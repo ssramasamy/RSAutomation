@@ -83,8 +83,6 @@
 			public void click_logout_button() {
 				
 				
-				driver.findElement(By.xpath("//div[@class='priceQuantity']//input[@class='form-control']")).clear();
-				driver.findElement(By.xpath("//div[@class='priceQuantity']//input[@class='form-control']")).sendKeys(Keys.ENTER);
 				driver.findElement(By.xpath("//a[@id='js-logInOut']")).click();
 				driver.quit();
 		
