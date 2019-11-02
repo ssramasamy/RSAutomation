@@ -21,7 +21,7 @@
 			@Given("^user is already on home page$")
 			public void user_is_already_on_home_page() {
 		
-				System.setProperty("webdriver.chrome.driver", "C:/Users/User/git/RSAutomationBDDFramework/Drivers/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:/Users/User/git/git/RSAutomation/RSAutomationBDDFramework/Drivers/chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.get("https://uk.rs-online.com");
 				driver.manage().window().maximize();
