@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-10-31T20:12:46.193Z",
+        "start_timestamp": "2019-11-02T13:06:40.574Z",
         "line": 3,
         "name": "RS Automation Login and Verify Price Test Scenario",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12325452900,
+              "duration": 9609731000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 2511975800,
+              "duration": 1506444400,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 140142100,
+              "duration": 603092400,
               "status": "passed"
             },
             "line": 7,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 829315500,
+              "duration": 793250400,
               "status": "passed"
             },
             "line": 8,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 10081982200,
+              "duration": 9775952100,
               "status": "passed"
             },
             "line": 13,
@@ -87,8 +87,9 @@
           },
           {
             "result": {
-              "duration": 1725646400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d78.0.3904.87)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SFS223H\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 319235ce732ea8e706c5b1c4bd416646\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat stepDefinitions.LoginAndVerifyPriceSteps.price(LoginAndVerifyPriceSteps.java:72)\r\n\tat ✽.enter no.of products and verify productprice(file:/C:/Users/User/git/git/RSAutomation/RSAutomationBDDFramework/src/main/java/Features/LoginAndVerify.feature:14)\r\n",
+              "duration": 1457253000,
+              "status": "failed"
             },
             "line": 14,
             "name": "enter no.of products and verify productprice",
@@ -143,8 +144,8 @@
           },
           {
             "result": {
-              "duration": 2082031100,
-              "status": "passed"
+              "duration": 664500,
+              "status": "skipped"
             },
             "line": 22,
             "name": "user clicks logout button",
@@ -160,7 +161,7 @@
     "description": "",
     "id": "rs-automation-login-and-verify-feature",
     "keyword": "Feature",
-    "uri": "file:/C:/Users/User/git/RSAutomationBDDFramework/src/main/java/Features/LoginAndVerify.feature",
+    "uri": "file:/C:/Users/User/git/git/RSAutomation/RSAutomationBDDFramework/src/main/java/Features/LoginAndVerify.feature",
     "tags": []
   }
 ]
