@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.73065">
+<testcase classname="RS Automation Login and Verify Feature" name="RS Automation Login and Verify Price Test Scenario" time="29.73065">
+<system-out><![CDATA[Given user is already on home page..........................................passed
+When user is clicks on login button.........................................passed
+Then title of page is RS Components Electronic and Electrical Components....passed
+Then user enters username and password and click login......................passed
+Then user enters product in search box......................................passed
+Then enter no.of products and verify productprice...........................passed
+And user clicks logout button...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
