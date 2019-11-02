@@ -24,6 +24,7 @@
 				System.setProperty("webdriver.chrome.driver", "C:/Users/User/git/git/RSAutomation/RSAutomationBDDFramework/Drivers/chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.get("https://uk.rs-online.com");
+				driver.findElement(By.xpath("//div[@id= 'js-cookie-accept']")).click();
 				driver.manage().window().maximize();
 				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
@@ -83,6 +84,7 @@
 				
 				
 				driver.findElement(By.xpath("//div[@class='priceQuantity']//input[@class='form-control']")).clear();
+				driver.findElement(By.xpath("//div[@class='priceQuantity']//input[@class='form-control']")).sendKeys(Keys.ENTER);
 				driver.findElement(By.xpath("//a[@id='js-logInOut']")).click();
 				driver.quit();
 		
