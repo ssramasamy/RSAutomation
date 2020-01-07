@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.889377">
-<testcase classname="RS Automation Login and Verify Feature" name="RS Automation Login and Verify Price Test Scenario" time="28.889377">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.615789">
+<testcase classname="RS Automation Login and Verify Feature" name="RS Automation Login and Verify Price Test Scenario" time="38.615789">
 <system-out><![CDATA[Given user is already on home page..........................................passed
 When user is clicks on login button.........................................passed
 Then title of page is RS Components Electronic and Electrical Components....passed
