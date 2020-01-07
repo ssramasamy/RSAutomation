@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-11-02T13:51:34.774Z",
+        "start_timestamp": "2020-01-02T14:53:30.346Z",
         "line": 3,
         "name": "RS Automation Login and Verify Price Test Scenario",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11616301000,
+              "duration": 15566443900,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1519126300,
+              "duration": 7397108800,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 134434100,
+              "duration": 121609200,
               "status": "passed"
             },
             "line": 7,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 840928100,
+              "duration": 1654551500,
               "status": "passed"
             },
             "line": 8,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 10691361200,
+              "duration": 8652380200,
               "status": "passed"
             },
             "line": 13,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 1700881100,
+              "duration": 2553470200,
               "status": "passed"
             },
             "line": 14,
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 2338159100,
+              "duration": 2596837900,
               "status": "passed"
             },
             "line": 22,
